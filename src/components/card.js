@@ -3,9 +3,6 @@ import Img from "gatsby-image"
 import { FaGithub } from 'react-icons/fa';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
-
-
-
 function card(props) {
   const { cardTitle, cardSubtitle, GHlink, WSlink, cardImage } = props
   return (
