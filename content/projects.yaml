@@ -1,0 +1,35 @@
+- title: Inhabitent
+  subtitle: A multi-page website with a blog for a camping supply company. The site uses Wordpress and based on the underscores theme.
+  link: https://github.com/mirimar8/Inhabitent-Project-4
+  image: ../src/images/front1.png
+  
+
+- title: BoomTown
+  subtitle: Basic Music Player That lets you to play music
+  link: https://github.com/Mr404Found/Basic-Music-Player
+  image: ../src/images/Screenshot-about-ios.png
+
+
+- title: R10
+  subtitle: Get Your Age
+  link: https://github.com/Mr404Found/AgeCalculator
+  image: ../src/images/Screenshot-about-ios.png
+
+
+- title: Quotes On Dev
+  subtitle: A new Flutter project
+  link: https://github.com/Mr404Found/Qr-Code-Application
+  image: ../src/images/Screenshot-about-ios.png
+
+
+- title: Beyond The Conversation
+  subtitle: A new Flutter project
+  link: https://github.com/Mr404Found/Qr-Code-Application
+  image: ../src/images/Screenshot-about-ios.png
+
+
+- title: InstaNews
+  subtitle: A new Flutter project
+  link: https://github.com/Mr404Found/Qr-Code-Application
+  image: ../src/images/Screenshot-about-ios.png
+
