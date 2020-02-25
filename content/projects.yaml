@@ -1,35 +1,41 @@
 - title: Inhabitent
-  subtitle: A multi-page website with a blog for a camping supply company. The site uses Wordpress and based on the underscores theme.
+  subtitle: A multi-page website with a blog for a camping supply company.
   link: https://github.com/mirimar8/Inhabitent-Project-4
+  WSlink: https://beyond.van.cp.academy.red/
   image: ../src/images/front1.png
   
 
 - title: BoomTown
-  subtitle: Basic Music Player That lets you to play music
-  link: https://github.com/Mr404Found/Basic-Music-Player
+  subtitle: A web-based application to support a local sharing economy. The app allows users to browse all items and user profiles, and also share items of their own.
+  link: https://github.com/mirimar8/BoomTown
+  WSlink: https://beyond.van.cp.academy.red/
   image: ../src/images/Screenshot-about-ios.png
 
 
 - title: R10
-  subtitle: Get Your Age
-  link: https://github.com/Mr404Found/AgeCalculator
+  subtitle: A cross-platform (iOS/Android) mobile application for an upcoming developer conference called R10.
+  link: https://github.com/mirimar8/R10
+  WSlink: https://beyond.van.cp.academy.red/
   image: ../src/images/Screenshot-about-ios.png
 
 
 - title: Quotes On Dev
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
+  subtitle: A multi-page website which presents quotes from the development world and accepts the submission of new ones.
+  link: https://github.com/mirimar8/Quotes-on-Dev-Project-5
+  WSlink: https://beyond.van.cp.academy.red/
   image: ../src/images/Screenshot-about-ios.png
 
 
 - title: Beyond The Conversation
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
+  subtitle: A customized WP website for a voluntary organization which connects between vulnerable citizens and helps them build social support networks.
+  link: https://github.com/mirimar8/beyond-ws1-2019
+  WSlink: https://beyond.van.cp.academy.red/
   image: ../src/images/Screenshot-about-ios.png
 
 
 - title: InstaNews
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
-  image: ../src/images/Screenshot-about-ios.png
+  subtitle: A one-page responsive website that allows a user to filter top news story categories via the New York Times API.
+  link: https://github.com/mirimar8/Instanews-App-Project-3
+  WSlink: https://beyond.van.cp.academy.red/
+  image: ../src/images/website-screenshot.png
 

@@ -1,9 +1,13 @@
 import React from "react"
 import Img from "gatsby-image"
+import { FaGithub } from 'react-icons/fa';
+import { FaExternalLinkAlt } from 'react-icons/fa';
+
+
 
 
 function card(props) {
-  const { cardTitle, cardSubtitle, link, cardImage } = props
+  const { cardTitle, cardSubtitle, GHlink, WSlink, cardImage } = props
   return (
     <div className="col-lg-4">
       <div className="card mx-3 my-5">
@@ -14,8 +18,11 @@ function card(props) {
             className="selfie"
             fluid={cardImage}
           />
-          <a href={link} className="card-link">
-            See
+          <a href={GHlink} className="card-link">
+            <FaGithub />Source
+          </a>
+          <a href={WSlink} className="card-link">
+            <FaExternalLinkAlt />Live
           </a>
 
         </div>
