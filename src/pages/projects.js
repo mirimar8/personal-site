@@ -23,6 +23,7 @@ function Projects({ data }) {
             <Card
               cardTitle={node.title}
               cardSubtitle={node.subtitle}
+              cardTech={node.technologies}
               GHlink={node.GHlink}
               WSlink={node.WSlink}
               cardImage={node.image.childImageSharp.fluid}
@@ -47,6 +48,7 @@ export const query = graphql`
         node {
           title
           subtitle
+          technologies
           GHlink
           WSlink
           image {

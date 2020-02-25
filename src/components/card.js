@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
 function card(props) {
-  const { cardTitle, cardSubtitle, GHlink, WSlink, cardImage } = props
+  const { cardTitle, cardSubtitle, GHlink, WSlink, cardImage, cardTech } = props
   return (
     <div className="col-lg-4">
       <div className="card mx-3 my-5">
@@ -15,6 +15,7 @@ function card(props) {
             className="selfie"
             fluid={cardImage}
           />
+          <p className="card-tech">{cardTech}</p>
           <a href={GHlink} className="card-link">
             <FaGithub />Source
           </a>
