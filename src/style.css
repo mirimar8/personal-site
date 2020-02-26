@@ -3,31 +3,50 @@
 html {
   background-color: #1f2b3b !important;
   color: #fff !important;
-  /* font-size: 2em; */
   font-family: "Poppins", sans-serif !important;
 }
 
 body {
   background-color: #1f2b3b !important;
   color: #fff !important;
-  font-size: 20px !important;
+  font-size: 20px !important; 
   font-family: "Poppins", sans-serif !important;
 }
-
-.code {
-  font-family: "Source Code Pro", monospace;
+.title {
+  margin-left: 20px;
 }
+.about {
+  color: rgb(228, 224, 224);
+  font-size: 25px; 
+  font-family: "Poppins", sans-serif ;
+  /* font-weight: 100; */
+  margin-left: 50px;
+  line-height: 1.5;
+  width: 85%;
+
+
+}
+
+/* .code {
+  font-family: "Source Code Pro", monospace;
+} */
 
 .info {
   line-height: 1.4;
   width: 85%;
 }
 
-.social {
+.social-container {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  margin-left: 20px;
+  
+}
+.social {
   color: white !important;
+  padding: 10px 30px 20px;
+  font-size: 40px;
 }
 
 .icon {
@@ -58,4 +77,34 @@ body {
 
 .card:hover {
   transform: scale(1.09);
+}
+
+.html-tag {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+  color: #ff8a00;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.body-tag {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+  color: #ff8a00;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.h1-tag {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+  color: #ff8a00;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
