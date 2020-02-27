@@ -11,24 +11,23 @@ function card(props) {
         <div className="card-body">
           <h2 className="card-title">{cardTitle}</h2>
           <p className="card-text">{cardSubtitle}</p>
+          <p className="card-tech">{cardTech}</p>
           <Img
             className="card-image"
             fluid={cardImage}
           />
-          <p className="card-tech">{cardTech}</p>
-
           <div className="links-container">
             <button className="link-button">
-              <a href={GHlink} className="card-link">
+              <a href={GHlink} className="card-link" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="icon" />Source
               </a>
             </button>
             {WSlink ? (
               <button className="link-button">
-                <a href={WSlink} className="card-link">
+                <a href={WSlink} className="card-link" target="_blank" rel="noopener noreferrer">
                   <FaExternalLinkAlt className="icon" />Live
               </a></button>
-            ) : (<a href={WSlink} className="card-link"></a>)}
+            ) : (<a href={WSlink} className="card-link" target="_blank" rel="noopener noreferrer"> </a>)}
           </div>
 
         </div>

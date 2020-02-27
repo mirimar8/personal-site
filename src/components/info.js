@@ -4,22 +4,28 @@ import {
   FaGithub as Github,
   FaEnvelope as Mail,
 } from "react-icons/fa";
+import image from '../images/my-image.jpg';
+
 
 
 export default function info() {
   return (
     <div className="container">
+
       <p className="html-tag">&lt;html&gt;</p>
 
       <div className="body-tag">&lt;body&gt;</div>
 
       <div className="h1-tag">&lt;h1&gt;</div>
-      <div className="title" style={{ color: "#FF8A00", marginLeft: '50px', fontSize: '55px' }}>
-        <span style={{ color: "white" }}>Hello, I'm</span> <br />
-        Miri. <br />
-        <span style={{ color: "white", fontSize: '40px' }}>Full Stack Developer</span>
+      <div className="title-container">
+        <div className="title">
+          <span style={{ color: "white" }}>Hello, I'm</span> Miri. <br />
+          <span style={{ color: "white", fontSize: '40px' }}>Full Stack Developer</span>
 
+        </div>
+        <img src={image} className="my-image"></img>
       </div>
+
       <div className="h1-tag"> &lt;/h1&gt;</div>
 
       <div className="about">
@@ -40,14 +46,15 @@ export default function info() {
       <div className="body-tag">&lt;/body&gt;</div>
       <div className="html-tag">&lt;/html&gt;</div>
 
+
       <div className="social-container">
-        <a className="social-link" href="https://github.com/mirimar8">
+        <a className="social-link" href="https://github.com/mirimar8" target="_blank" rel="noopener noreferrer">
           <Github />
         </a>
-        <a className="social-link" href="https://www.linkedin.com/in/miri-markovitz/">
+        <a className="social-link" href="https://www.linkedin.com/in/miri-markovitz/" target="_blank" rel="noopener noreferrer">
           <LinkedIn />
         </a>
-        <a className="social-link" href="mailto://mirimarkovitzbl@gmail.com">
+        <a className="social-link" href="mailto://mirimarkovitzbl@gmail.com" target="_blank" rel="noopener noreferrer">
           <Mail />
         </a>
       </div>

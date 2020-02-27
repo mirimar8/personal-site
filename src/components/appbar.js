@@ -1,6 +1,6 @@
 import React from "react"
 import Intent from "./link"
-import { Link } from "gatsby"
+import Pdf from '../images/Resume.pdf';
 
 
 export default function Appbar() {
@@ -13,8 +13,8 @@ export default function Appbar() {
         <li className="nav-item mx-4">
           <Intent to="/projects">Projects</Intent>
         </li>
-        {/* <Link to="../images/Resume">resume</Link> */}
       </ul>
+      <a href={Pdf} target="_blank" rel="noopener noreferrer" className="resume-link">Resume</a>
     </div>
   )
 }
