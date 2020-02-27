@@ -2,7 +2,7 @@
   subtitle: A multi-page website with a blog for a camping supply company.
   technologies: WordPress, PHP, CSS3 and Sass, JavaScript, Jquery
   GHlink: https://github.com/mirimar8/Inhabitent-Project-4
-  WSlink: https://beyond.van.cp.academy.red/
+  WSlink: ''
   image: ../src/images/Inhabitent.png
   
 
@@ -10,7 +10,7 @@
   subtitle: A web-based application to support a local sharing economy. The app allows users to browse all items and user profiles, and also share items of their own.
   technologies: React, JavaScript, GraphQL/Apollo, Node.js/Express, Material UI, PostgreSQL
   GHlink: https://github.com/mirimar8/BoomTown
-  WSlink: https://beyond.van.cp.academy.red/
+  WSlink: ''
   image: ../src/images/BoomTown.png
 
 
@@ -18,7 +18,7 @@
   subtitle: A cross-platform (iOS/Android) mobile application for an upcoming developer conference called R10.
   technologies: React Native, JavaScript, GraphQl/Apollo, AsyncStorage
   GHlink: https://github.com/mirimar8/R10
-  WSlink: https://beyond.van.cp.academy.red/
+  WSlink: ''
   image: ../src/images/R10.png
 
 
@@ -26,12 +26,12 @@
   subtitle: A multi-page website which presents quotes from the development world and accepts the submission of new ones.
   technologies: WordPress, PHP, CSS3 and Sass, JavaScript, Jquery
   GHlink: https://github.com/mirimar8/Quotes-on-Dev-Project-5
-  WSlink: https://beyond.van.cp.academy.red/
+  WSlink: ''
   image: ../src/images/QuotesOnDev.png
 
 
 - title: Beyond The Conversation
-  subtitle: A customized WP website for a voluntary organization which connects between vulnerable citizens and helps them build social support networks.
+  subtitle: A customized WP website for a voluntary organization which connects between people and helps them build social support networks.
   technologies: WordPress, PHP, CSS3 and Sass, JavaScript, Jquery
   GHlink: https://github.com/mirimar8/beyond-ws1-2019
   WSlink: https://beyond.van.cp.academy.red/

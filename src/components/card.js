@@ -12,16 +12,24 @@ function card(props) {
           <h2 className="card-title">{cardTitle}</h2>
           <p className="card-text">{cardSubtitle}</p>
           <Img
-            className="selfie"
+            className="card-image"
             fluid={cardImage}
           />
           <p className="card-tech">{cardTech}</p>
-          <a href={GHlink} className="card-link">
-            <FaGithub />Source
-          </a>
-          <a href={WSlink} className="card-link">
-            <FaExternalLinkAlt />Live
-          </a>
+
+          <div className="links-container">
+            <button className="link-button">
+              <a href={GHlink} className="card-link">
+                <FaGithub className="icon" />Source
+              </a>
+            </button>
+            {WSlink ? (
+              <button className="link-button">
+                <a href={WSlink} className="card-link">
+                  <FaExternalLinkAlt className="icon" />Live
+              </a></button>
+            ) : (<a href={WSlink} className="card-link"></a>)}
+          </div>
 
         </div>
       </div>
