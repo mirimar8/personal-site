@@ -20,7 +20,7 @@ export default function info() {
       <div className="title-container">
         <div className="title">
           <span style={{ color: "white" }}>Hello, I'm</span> Miri. <br />
-          <span style={{ color: "white", fontSize: '40px' }}>Full Stack Developer</span>
+          <span className="sub-title">Full Stack Developer</span>
 
         </div>
         <img src={image} className="my-image"></img>
