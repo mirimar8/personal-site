@@ -23,7 +23,7 @@ export default function info() {
           <span className="sub-title">Full Stack Developer</span>
 
         </div>
-        <img src={image} className="my-image"></img>
+        <img src={image} className="my-image" alt="myself"></img>
       </div>
 
       <div className="h1-tag"> &lt;/h1&gt;</div>
@@ -33,9 +33,11 @@ export default function info() {
         and starting my internship as an accountant in Israel,
         to studying English in Las Vegas,
         to eventually finding my real passion as a developer in Vancouver. <br />
+        <pre></pre>
         As a Web/App Developer, I enjoy solving intriguing problems,
         using my obsessive attention to details and
         my desire to learn and expand my knowledge and skills. <br />
+        <pre></pre>
         I'm open for new experiences so if you're intrested in getting to know me more,
 
           <a className="info-link" href="mailto://mirimarkovitzbl@gmail.com">
