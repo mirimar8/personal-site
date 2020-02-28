@@ -18,14 +18,18 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-right: 150px;
+}
+.nav {
+  margin-right: 20px
 }
 .nav-item {
   font-size: 20px;
+  align-self: center;
+  
 }
 .resume-link {
   color: white;
-  margin-left: 30px;
+  margin-left: 20px;
   font-size: 20px;
 }
 .resume-link:hover {
@@ -148,6 +152,7 @@ body {
   background-color: transparent;
   margin-right: 20px;
   border-radius: 5px;
+  font-size: 20px;
 }
 .link-button:hover {
   border-color:#ff8a00 ;
@@ -183,9 +188,11 @@ body {
   }
   .nav-item {
     font-size: 15px;
+
   }
   .nav {
     flex-wrap: nowrap;
+    margin-left: 40px
   }
   .body {
     margin: 15px;

@@ -13,8 +13,11 @@ export default function Appbar() {
         <li className="nav-item mx-4">
           <Intent to="/projects">Projects</Intent>
         </li>
+        <li className="nav-item mx-4">
+          <a href={Pdf} target="_blank" rel="noopener noreferrer" className="resume-link">Resume</a>
+        </li>
       </ul>
-      <a href={Pdf} target="_blank" rel="noopener noreferrer" className="resume-link">Resume</a>
+
     </div>
   )
 }
