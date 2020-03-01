@@ -29,12 +29,12 @@ body {
 }
 .resume-link {
   color: white;
-  margin-left: 20px;
+  padding: 10px;
   font-size: 20px;
 }
 .resume-link:hover {
   text-decoration: none;
-  color: #ff8a00;
+  color: #fff;
 }
 .html-tag {
   font-family: "Source Code Pro", monospace;
@@ -66,18 +66,20 @@ body {
   margin-bottom: 10px;
 }
 .my-image {
-    height: 250px;
-    width: 300px;
+    height: 30%;
+    width: 30%;
     border-radius: 50%;
+    margin-left: 50px;
 }
 .title-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  width: 95%;
 }
 .title {
-  margin-left: 30px;
+  /* margin-left: -60px; */
   color: #FF8A00;
   font-size: 55px;
 }
@@ -87,10 +89,11 @@ body {
 }
 .about {
   color: #ccc;
-  font-size: 25px; 
+  font-size: 22px; 
   font-family: "Poppins", sans-serif ;
   margin-left: 50px;
-  line-height: 1.5;
+  margin-right: 0px;
+  line-height: 1.6;
   width: 85%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -153,6 +156,12 @@ body {
   margin-right: 20px;
   border-radius: 5px;
   font-size: 20px;
+  height: 38px;
+  align-self: center;
+
+}
+.resume-button {
+  margin-right: 120px;
 }
 .link-button:hover {
   border-color:#ff8a00 ;
@@ -170,29 +179,34 @@ body {
   color: #fff;
   margin-right: 10px;
 }
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
 
 @media screen and (max-width: 800px) {
   .title-container {
-   margin-left: 20px;
-   margin-right: 20px;
+   margin-left: 40px;
+   margin-right: 40px;
+   width: 85%;
+  }
+  .title {
+    font-size: 40px;
   }
   .sub-title {
     font-size: 30px;
   }
+  .resume-button {
+    margin-right:70px;
+  }
+  
 }
 
 @media screen and (max-width: 415px) {
-  .resume-link {
-    font-size: 15px;
-    padding-right: 35px;
-  }
   .nav-item {
     font-size: 15px;
-
-  }
-  .nav {
-    flex-wrap: nowrap;
-    margin-left: 40px
   }
   .body {
     margin: 15px;
@@ -204,12 +218,8 @@ body {
   .sub-title {
     font-size: 15px;
   }
-  .my-image {
-    height: 100px;
-    width: 120px;
-  }
   .about {
-    font-size: 15px;
+    font-size: 13px;
   }
   .html-tag {
     font-size: 15px;
@@ -219,5 +229,14 @@ body {
   }
   .h1-tag {
     font-size: 15px;
+  }
+  .link-button {
+    border-color: white;
+  }
+  .social-link {
+    font-size: 20px;
+  }
+  .resume-button {
+   display: none;
   }
 }
