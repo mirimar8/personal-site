@@ -3,6 +3,7 @@ import {
   FaLinkedin as LinkedIn,
   FaGithub as Github,
   FaEnvelope as Mail,
+  FaFileDownload as Resume,
 } from "react-icons/fa";
 import image from '../images/my-image.jpg';
 import Pdf from '../images/Resume.pdf';
@@ -60,6 +61,9 @@ export default function info() {
           </a>
           <a className="social-link" href="mailto://mirimarkovitzbl@gmail.com" target="_blank" rel="noopener noreferrer">
             <Mail />
+          </a>
+          <a className="social-link mobile-resume" href={Pdf} target="_blank" rel="noopener noreferrer">
+            <Resume />
           </a>
 
         </div>

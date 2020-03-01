@@ -25,7 +25,6 @@ body {
 .nav-item {
   font-size: 20px;
   align-self: center;
-  
 }
 .resume-link {
   color: white;
@@ -79,7 +78,6 @@ body {
   width: 95%;
 }
 .title {
-  /* margin-left: -60px; */
   color: #FF8A00;
   font-size: 55px;
 }
@@ -158,10 +156,12 @@ body {
   font-size: 20px;
   height: 38px;
   align-self: center;
-
 }
 .resume-button {
   margin-right: 120px;
+}
+.mobile-resume {
+  display: none;
 }
 .link-button:hover {
   border-color:#ff8a00 ;
@@ -201,6 +201,9 @@ body {
   .resume-button {
     margin-right:70px;
   }
+  .mobile-resume {
+    display: none;
+  }
   
 }
 
@@ -220,6 +223,7 @@ body {
   }
   .about {
     font-size: 13px;
+    width: 80%;
   }
   .html-tag {
     font-size: 15px;
@@ -235,8 +239,17 @@ body {
   }
   .social-link {
     font-size: 20px;
+    padding-right: 20px;
   }
   .resume-button {
    display: none;
+  }
+  .mobile-resume {
+    display: inline;
+  }
+  .my-image {
+    width: 20%;
+    height: 20%;
+    margin-left: 20px;
   }
 }
