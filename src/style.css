@@ -6,6 +6,9 @@ html {
   font-family: "Poppins", sans-serif !important;
   position: relative;
 }
+.tl-edges {
+  overflow-x: visible;
+}
 
 body {
   background-color: #1f2b3b !important;
