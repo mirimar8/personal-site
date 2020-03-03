@@ -6,7 +6,7 @@ import {
   FaFileDownload as Resume,
 } from "react-icons/fa";
 import image from '../images/my-image.jpg';
-import Pdf from '../images/Resume.pdf';
+import Pdf from '../images/resume.pdf';
 
 
 
